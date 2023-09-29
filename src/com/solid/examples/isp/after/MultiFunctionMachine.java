@@ -3,7 +3,7 @@ package com.solid.examples.isp.after;
 import com.solid.examples.isp.after.MachineOptions.MultiFunctionDevice;
 import com.solid.examples.isp.after.MachineOptions.Printer;
 import com.solid.examples.isp.after.MachineOptions.Scanner;
-import com.solid.examples.isp.before.Document;
+import com.solid.examples.isp.Document;
 
 public class MultiFunctionMachine implements MultiFunctionDevice {
     // compose this out of several modules

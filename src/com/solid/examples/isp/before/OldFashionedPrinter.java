@@ -4,6 +4,8 @@ package com.solid.examples.isp.before;
 // Here the problem is we are trying to implement the machine which was poorly design without know how of
 // what can be of their child classed look like.
 
+import com.solid.examples.isp.Document;
+
 public class OldFashionedPrinter implements Machine{
     @Override
     public void print(Document d) {

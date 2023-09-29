@@ -11,6 +11,8 @@ At no point do they have to implement a certain methods which they don't need at
 
 */
 
+import com.solid.examples.isp.Document;
+
 public interface Machine {
     void print(Document d);
     void scan(Document d) throws Exception;

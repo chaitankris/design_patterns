@@ -1,4 +1,4 @@
-package com.solid.examples.isp.before;
+package com.solid.examples.isp;
 
 public class Document {
     int pages;
